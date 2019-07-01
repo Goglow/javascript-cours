@@ -1,0 +1,15 @@
+var x = 5;
+var y = 12;
+
+var myBoolean = (x===5); // true (strictement = + vérification du type de la variable)
+var myBoolean = (x!==5); // false
+var myBoolean = (x==="5"); //false
+var myBoolean = (x>12); // false
+var myBoolean = (x>=5); // true
+
+console.log(myBoolean)
+
+var myBoolean (x>3 && y<15); //true (pour être vrai les deux parties doivent être vraies)
+var myBoolean (x>3 || y<10); //true (il suffit qu'un soit vrai pour que tout soit vrai)
+
+ && (AND) || (OR)
